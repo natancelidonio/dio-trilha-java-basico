@@ -6,6 +6,7 @@ public class ExemploWhile {
         double mesada = 50.0;
         while (mesada > 0) {
             Double valorDoce = valorAleatorio();
+            
             if (valorDoce > mesada) {
                 valorDoce = mesada
             }
@@ -13,7 +14,8 @@ public class ExemploWhile {
             System.out.println("Doce do valor: " + valorDoce + " Adicionado no carrinho");
             mesada = mesada - valorDoce;
         }
-        
+        System.out.println("Mesada: " + mesada);
+        System.out.println("Joãozinho gastou toda a sua mesada em doces.");
 
     }
 
